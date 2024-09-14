@@ -55,6 +55,8 @@ public class Jogador {
 ```java
 package com.jogo.advinhacao;
 
+import java.util.Scanner;
+
 public class JogoAdvinhacao {
     // Atributos privados
     private int numeroSecreto;
@@ -103,6 +105,20 @@ public class JogoAdvinhacao {
             }
         }
     }
+}
+```
+
+---
+
+#### Classe `JogoAdvinhacao`
+
+```java
+package com.jogo.advinhacao;
+
+import java.util.Scanner;
+
+public class App {
+    
 
     public static void main(String[] args) {
         // Coletando o nome do jogador
